@@ -1,0 +1,181 @@
+input {
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    background-color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    color: #fff;
+    border: 3px solid #333;
+    font-weight: bold;
+}
+
+.introduction h3 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: black;
+}
+
+.admin-button {
+    background-color: #eb4034;
+    color: #fff;
+    border: 2px solid #f5291b;
+    width: 280px;
+    box-sizing: border-box;
+}
+
+.admin-button:hover {
+    background-color: #fff;
+    border: 2px solid #eb4034;
+    color: #eb4034;
+}
+
+.ballots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ballot-info {
+    border: 2px solid #333;
+    margin: 10px 0;
+}
+
+.ballot-info > h1 {
+    font-size: 30px;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.ballot-info > p {
+    margin: 0;
+}
+
+.ballot {
+    margin: 20px;
+    width: 1200px;
+}
+
+.vote-details {
+    display: flex;
+    margin: 20px;
+}
+
+.vote-distribution {
+    width: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333;
+    background-color: #faa8a2;
+    margin: 10px;
+}
+
+.vote-distribution h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.vote-distribution > p {
+    color: #c70d00;
+    width: 300px;
+}
+
+.vote-distribution > h3 {
+    padding: 15px;
+    width: 300px;
+    background-color: #fff;
+    color: #333;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.vote-distribution h3 span {
+    font-size: 12px;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+
+.input-section {
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 300px;
+}
+
+.proposal-info {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333;
+    margin: 10px;
+}
+
+.proposal-info  h1 {
+    font-size: 20px;
+}
+
+.vote-status span {
+    font-weight: 800;
+    color: #c70d00;
+}
+
+.candidate-info {
+    margin: 10px;
+}
+
+.candidate-info .row:first-child {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row p {
+    margin: 1px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.pick-winner {
+    background-color: #faa8a2;
+    width: 500px;
+    border: 2px solid #333;
+    margin: 15px 0;
+}
+
+.pick-winner h1 {
+    font-weight: 400;
+}
+
+.network_error {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.network_error p {
+    padding: 20px;
+    background-color: rgb(240, 195, 195);
+    color: rgb(255, 38, 38);
+    border-radius: 20px;
+}
